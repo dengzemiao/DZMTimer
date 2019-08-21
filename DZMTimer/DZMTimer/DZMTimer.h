@@ -1,7 +1,15 @@
-# DZMTimer
-倒计时，定时器，NSTimer封装，简单使用！
+//
+//  DZMTimer.h
+//  DZMTimer
+//
+//  Created by dengzemiao on 2019/8/21.
+//  Copyright © 2019 DZM. All rights reserved.
+//
 
-```
+#import <Foundation/Foundation.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
 /// 计时结束
 typedef void(^DZMTimerComplete)(void);
 
@@ -30,4 +38,4 @@ typedef void(^DZMTimerChange)(NSTimeInterval interval);
 - (void)stop;
 @end
 
-```
+NS_ASSUME_NONNULL_END

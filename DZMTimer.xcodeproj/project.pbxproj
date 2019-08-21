@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF261181230D1AE500761744 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF261180230D1AE500761744 /* AppDelegate.m */; };
+		AF261184230D1AE500761744 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF261183230D1AE500761744 /* ViewController.m */; };
+		AF261187230D1AE500761744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF261185230D1AE500761744 /* Main.storyboard */; };
+		AF261189230D1AE600761744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF261188230D1AE600761744 /* Assets.xcassets */; };
+		AF26118C230D1AE600761744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF26118A230D1AE600761744 /* LaunchScreen.storyboard */; };
+		AF26118F230D1AE600761744 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF26118E230D1AE600761744 /* main.m */; };
+		AF261199230D1AE600761744 /* DZMTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF261198230D1AE600761744 /* DZMTimerTests.m */; };
+		AF2611A4230D1AE600761744 /* DZMTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2611A3230D1AE600761744 /* DZMTimerUITests.m */; };
+		AF2611B4230D1B0900761744 /* DZMTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2611B3230D1B0900761744 /* DZMTimer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF261195230D1AE600761744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF261174230D1AE500761744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF26117B230D1AE500761744;
+			remoteInfo = DZMTimer;
+		};
+		AF2611A0230D1AE600761744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF261174230D1AE500761744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF26117B230D1AE500761744;
+			remoteInfo = DZMTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF26117C230D1AE500761744 /* DZMTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZMTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF26117F230D1AE500761744 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF261180230D1AE500761744 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF261182230D1AE500761744 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF261183230D1AE500761744 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF261186230D1AE500761744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF261188230D1AE600761744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF26118B230D1AE600761744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF26118D230D1AE600761744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF26118E230D1AE600761744 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF261194230D1AE600761744 /* DZMTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZMTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF261198230D1AE600761744 /* DZMTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZMTimerTests.m; sourceTree = "<group>"; };
+		AF26119A230D1AE600761744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF26119F230D1AE600761744 /* DZMTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZMTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2611A3230D1AE600761744 /* DZMTimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZMTimerUITests.m; sourceTree = "<group>"; };
+		AF2611A5230D1AE600761744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF2611B2230D1B0900761744 /* DZMTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZMTimer.h; sourceTree = "<group>"; };
+		AF2611B3230D1B0900761744 /* DZMTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZMTimer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF261179230D1AE500761744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF261191230D1AE600761744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF26119C230D1AE600761744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF261173230D1AE500761744 = {
+			isa = PBXGroup;
+			children = (
+				AF26117E230D1AE500761744 /* DZMTimer */,
+				AF261197230D1AE600761744 /* DZMTimerTests */,
+				AF2611A2230D1AE600761744 /* DZMTimerUITests */,
+				AF26117D230D1AE500761744 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF26117D230D1AE500761744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF26117C230D1AE500761744 /* DZMTimer.app */,
+				AF261194230D1AE600761744 /* DZMTimerTests.xctest */,
+				AF26119F230D1AE600761744 /* DZMTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF26117E230D1AE500761744 /* DZMTimer */ = {
+			isa = PBXGroup;
+			children = (
+				AF2611B1230D1AFE00761744 /* DZMTimer */,
+				AF26117F230D1AE500761744 /* AppDelegate.h */,
+				AF261180230D1AE500761744 /* AppDelegate.m */,
+				AF261182230D1AE500761744 /* ViewController.h */,
+				AF261183230D1AE500761744 /* ViewController.m */,
+				AF261185230D1AE500761744 /* Main.storyboard */,
+				AF261188230D1AE600761744 /* Assets.xcassets */,
+				AF26118A230D1AE600761744 /* LaunchScreen.storyboard */,
+				AF26118D230D1AE600761744 /* Info.plist */,
+				AF26118E230D1AE600761744 /* main.m */,
+			);
+			path = DZMTimer;
+			sourceTree = "<group>";
+		};
+		AF261197230D1AE600761744 /* DZMTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF261198230D1AE600761744 /* DZMTimerTests.m */,
+				AF26119A230D1AE600761744 /* Info.plist */,
+			);
+			path = DZMTimerTests;
+			sourceTree = "<group>";
+		};
+		AF2611A2230D1AE600761744 /* DZMTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF2611A3230D1AE600761744 /* DZMTimerUITests.m */,
+				AF2611A5230D1AE600761744 /* Info.plist */,
+			);
+			path = DZMTimerUITests;
+			sourceTree = "<group>";
+		};
+		AF2611B1230D1AFE00761744 /* DZMTimer */ = {
+			isa = PBXGroup;
+			children = (
+				AF2611B2230D1B0900761744 /* DZMTimer.h */,
+				AF2611B3230D1B0900761744 /* DZMTimer.m */,
+			);
+			path = DZMTimer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF26117B230D1AE500761744 /* DZMTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2611A8230D1AE600761744 /* Build configuration list for PBXNativeTarget "DZMTimer" */;
+			buildPhases = (
+				AF261178230D1AE500761744 /* Sources */,
+				AF261179230D1AE500761744 /* Frameworks */,
+				AF26117A230D1AE500761744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DZMTimer;
+			productName = DZMTimer;
+			productReference = AF26117C230D1AE500761744 /* DZMTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF261193230D1AE600761744 /* DZMTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2611AB230D1AE600761744 /* Build configuration list for PBXNativeTarget "DZMTimerTests" */;
+			buildPhases = (
+				AF261190230D1AE600761744 /* Sources */,
+				AF261191230D1AE600761744 /* Frameworks */,
+				AF261192230D1AE600761744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF261196230D1AE600761744 /* PBXTargetDependency */,
+			);
+			name = DZMTimerTests;
+			productName = DZMTimerTests;
+			productReference = AF261194230D1AE600761744 /* DZMTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF26119E230D1AE600761744 /* DZMTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2611AE230D1AE600761744 /* Build configuration list for PBXNativeTarget "DZMTimerUITests" */;
+			buildPhases = (
+				AF26119B230D1AE600761744 /* Sources */,
+				AF26119C230D1AE600761744 /* Frameworks */,
+				AF26119D230D1AE600761744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF2611A1230D1AE600761744 /* PBXTargetDependency */,
+			);
+			name = DZMTimerUITests;
+			productName = DZMTimerUITests;
+			productReference = AF26119F230D1AE600761744 /* DZMTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF261174230D1AE500761744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = DZM;
+				TargetAttributes = {
+					AF26117B230D1AE500761744 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					AF261193230D1AE600761744 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = AF26117B230D1AE500761744;
+					};
+					AF26119E230D1AE600761744 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = AF26117B230D1AE500761744;
+					};
+				};
+			};
+			buildConfigurationList = AF261177230D1AE500761744 /* Build configuration list for PBXProject "DZMTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF261173230D1AE500761744;
+			productRefGroup = AF26117D230D1AE500761744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF26117B230D1AE500761744 /* DZMTimer */,
+				AF261193230D1AE600761744 /* DZMTimerTests */,
+				AF26119E230D1AE600761744 /* DZMTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF26117A230D1AE500761744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF26118C230D1AE600761744 /* LaunchScreen.storyboard in Resources */,
+				AF261189230D1AE600761744 /* Assets.xcassets in Resources */,
+				AF261187230D1AE500761744 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF261192230D1AE600761744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF26119D230D1AE600761744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF261178230D1AE500761744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF261184230D1AE500761744 /* ViewController.m in Sources */,
+				AF2611B4230D1B0900761744 /* DZMTimer.m in Sources */,
+				AF26118F230D1AE600761744 /* main.m in Sources */,
+				AF261181230D1AE500761744 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF261190230D1AE600761744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF261199230D1AE600761744 /* DZMTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF26119B230D1AE600761744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2611A4230D1AE600761744 /* DZMTimerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF261196230D1AE600761744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF26117B230D1AE500761744 /* DZMTimer */;
+			targetProxy = AF261195230D1AE600761744 /* PBXContainerItemProxy */;
+		};
+		AF2611A1230D1AE600761744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF26117B230D1AE500761744 /* DZMTimer */;
+			targetProxy = AF2611A0230D1AE600761744 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF261185230D1AE500761744 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF261186230D1AE500761744 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF26118A230D1AE600761744 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF26118B230D1AE600761744 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF2611A6230D1AE600761744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF2611A7230D1AE600761744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF2611A9230D1AE600761744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DZMTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DZM.DZMTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF2611AA230D1AE600761744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DZMTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DZM.DZMTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF2611AC230D1AE600761744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DZMTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DZM.DZMTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DZMTimer.app/DZMTimer";
+			};
+			name = Debug;
+		};
+		AF2611AD230D1AE600761744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DZMTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DZM.DZMTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DZMTimer.app/DZMTimer";
+			};
+			name = Release;
+		};
+		AF2611AF230D1AE600761744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DZMTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DZM.DZMTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DZMTimer;
+			};
+			name = Debug;
+		};
+		AF2611B0230D1AE600761744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DZMTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DZM.DZMTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DZMTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF261177230D1AE500761744 /* Build configuration list for PBXProject "DZMTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2611A6230D1AE600761744 /* Debug */,
+				AF2611A7230D1AE600761744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF2611A8230D1AE600761744 /* Build configuration list for PBXNativeTarget "DZMTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2611A9230D1AE600761744 /* Debug */,
+				AF2611AA230D1AE600761744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF2611AB230D1AE600761744 /* Build configuration list for PBXNativeTarget "DZMTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2611AC230D1AE600761744 /* Debug */,
+				AF2611AD230D1AE600761744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF2611AE230D1AE600761744 /* Build configuration list for PBXNativeTarget "DZMTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2611AF230D1AE600761744 /* Debug */,
+				AF2611B0230D1AE600761744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF261174230D1AE500761744 /* Project object */;
+}
