@@ -27,9 +27,11 @@ typedef void(^DZMTimerChange)(NSTimeInterval interval);
 
 + (nullable instancetype)timeInterval:(NSTimeInterval)timeInterval isStart:(BOOL)isStart change:(DZMTimerChange)change complete:(DZMTimerComplete _Nullable)complete;
 
-+ (nullable instancetype)timeInterval:(NSTimeInterval)timeInterval totalInterval:(NSTimeInterval)totalInterval change:(DZMTimerChange)change complete:(DZMTimerComplete _Nullable)complete;
++ (nullable instancetype)timeInterval:(NSTimeInterval)timeInterval totalInterval:(NSTimeInterval)totalInterval complete:(DZMTimerComplete)complete;
 
-+ (nullable instancetype)timeInterval:(NSTimeInterval)timeInterval totalInterval:(NSTimeInterval)totalInterval isStart:(BOOL)isStart change:(DZMTimerChange)change complete:(DZMTimerComplete _Nullable)complete;
++ (nullable instancetype)timeInterval:(NSTimeInterval)timeInterval totalInterval:(NSTimeInterval)totalInterval change:(DZMTimerChange)change complete:(DZMTimerComplete)complete;
+
++ (nullable instancetype)timeInterval:(NSTimeInterval)timeInterval totalInterval:(NSTimeInterval)totalInterval isStart:(BOOL)isStart change:(DZMTimerChange _Nullable)change complete:(DZMTimerComplete _Nullable)complete;
 
 /// 开始计时 (参数 isStart 为 NO 时手动开始计时, 为 YES 时或多次调用无效)
 - (void)start;

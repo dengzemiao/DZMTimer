@@ -55,12 +55,17 @@
     return [DZMTimer timeInterval:timeInterval totalInterval:0 isStart:isStart change:change complete:complete];
 }
 
-+ (nullable instancetype)timeInterval:(NSTimeInterval)timeInterval totalInterval:(NSTimeInterval)totalInterval change:(DZMTimerChange)change complete:(DZMTimerComplete _Nullable)complete  {
++ (nullable instancetype)timeInterval:(NSTimeInterval)timeInterval totalInterval:(NSTimeInterval)totalInterval complete:(DZMTimerComplete)complete {
+    
+    return [DZMTimer timeInterval:timeInterval totalInterval:totalInterval isStart:YES change:nil complete:complete];
+}
+
++ (nullable instancetype)timeInterval:(NSTimeInterval)timeInterval totalInterval:(NSTimeInterval)totalInterval change:(DZMTimerChange)change complete:(DZMTimerComplete)complete  {
     
     return [DZMTimer timeInterval:timeInterval totalInterval:totalInterval isStart:YES change:change complete:complete];
 }
 
-+ (nullable instancetype)timeInterval:(NSTimeInterval)timeInterval totalInterval:(NSTimeInterval)totalInterval isStart:(BOOL)isStart change:(DZMTimerChange)change complete:(DZMTimerComplete _Nullable)complete  {
++ (nullable instancetype)timeInterval:(NSTimeInterval)timeInterval totalInterval:(NSTimeInterval)totalInterval isStart:(BOOL)isStart change:(DZMTimerChange _Nullable)change complete:(DZMTimerComplete _Nullable)complete  {
     
     if (timeInterval < 0.01) { return nil; }
     
