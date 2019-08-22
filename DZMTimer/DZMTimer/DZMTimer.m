@@ -25,9 +25,6 @@
 /// 计时变动
 @property (nonatomic, copy) DZMTimerChange change;
 
-/// 定时器
-@property (nonatomic, strong) NSTimer *timer;
-
 /// 强引用自身
 @property (nonatomic, strong) DZMTimer *strongSelf;
 
@@ -91,20 +88,20 @@
 /// 开始计时
 - (void)start {
     
-    if (!self.timer) {
+    if (!_timer) {
         
-        self.timer = [NSTimer scheduledTimerWithTimeInterval:self.timeInterval target:self selector:@selector(timerChange) userInfo:nil repeats:YES];
+        _timer = [NSTimer scheduledTimerWithTimeInterval:self.timeInterval target:self selector:@selector(timerChange) userInfo:nil repeats:YES];
     }
 }
 
 /// 停止计时
 - (void)stop {
     
-    if (self.timer) {
+    if (_timer) {
         
-        [self.timer invalidate];
+        [_timer invalidate];
         
-        self.timer = nil;
+        _timer = nil;
         
         if (self.complete) { self.complete(); }
     }
