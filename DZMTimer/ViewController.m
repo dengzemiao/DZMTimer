@@ -52,6 +52,11 @@
     [self.timer start];
 }
 
+- (IBAction)add:(UIButton *)sender {
+    
+    [self.timer increase:3];
+}
+
 /// 手动停止计时
 - (IBAction)stop:(UIButton *)sender {
     

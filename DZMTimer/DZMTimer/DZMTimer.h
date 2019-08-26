@@ -53,6 +53,9 @@ typedef void(^DZMTimerChange)(NSTimeInterval interval);
 /// change = 计时器或倒计时变化调用, complete = 计时器停止或者倒计时结束调用
 + (nullable instancetype)timeInterval:(NSTimeInterval)timeInterval totalInterval:(NSTimeInterval)totalInterval isStart:(BOOL)isStart change:(DZMTimerChange _Nullable)change complete:(DZMTimerComplete _Nullable)complete;
 
+/// 在当前剩余倒计时长上增加时长，正数为加，负数为减。(倒计时模式使用，计时器模式无效)
+- (void)increase:(NSTimeInterval)increaseInterval;
+
 /// 开始计时 (参数 isStart 为 NO 时手动开始计时, 为 YES 时或多次调用无效)
 - (void)start;
 

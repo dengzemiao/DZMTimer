@@ -16,7 +16,7 @@
 /// 时间间隔
 @property (nonatomic, assign) NSTimeInterval timeInterval;
 
-/// 当前剩余时间
+/// 当前剩余时间(倒计时模式),当前计时器时间(计时器模式)
 @property (nonatomic, assign) NSTimeInterval currentInterval;
 
 /// 计时结束
@@ -83,6 +83,16 @@
     if (isStart) { [timer start]; }
     
     return timer;
+}
+
+- (void)increase:(NSTimeInterval)increaseInterval {
+    
+    if (self.totalInterval > 0.01 && self.currentInterval > 0.01) {
+        
+        self.currentInterval += increaseInterval;
+        
+        self.totalInterval += increaseInterval;
+    }
 }
 
 /// 开始计时
